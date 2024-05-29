@@ -1,0 +1,54 @@
+.App {
+  max-width: 400px;
+  height: 410px;
+  background-color: #d9dad8;
+  border-radius: 20px;
+  margin: auto auto;
+  padding: 2em 4em 1em;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.boxs {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background-color: #ccc;
+  font-size: 50px;
+  color: #000;
+  font-weight: bold;
+}
+
+/* .checkboxs {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.checkbox {
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+  opacity: 0.3;
+} */
+
+.correct {
+  background-color: #91ad70;
+}
+
+.include {
+  background-color: #e2943b;
+}
+
+.exclude {
+  background-color: #bbb;
+}
