@@ -1,7 +1,7 @@
 .App {
-  width: 400px;
+  width: 360px;
   max-width: 90vw;
-  height: 410px;
+  height: 430px;
   background-color: #d9dad8;
   border-radius: 20px;
   border: 10px solid #b1c49c00;
@@ -10,6 +10,7 @@
   font-family: sans-serif;
   text-align: center;
   transition: 0.8s ease-in-out;
+  position: relative;
 }
 
 .yeah {

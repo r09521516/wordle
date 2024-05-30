@@ -8,7 +8,9 @@ const WORDSLIST = [
   "BRAWL", "COUCH", "YUMMY", "SMILE", "QUITE", "MAYBE", 
   "PAUSE", "STAND", "DRINK", "CAUSE", "SLEEP", "JELLY",
   "OCEAN", "STACK", "FRESH", "COVER", "NORTH", "VOICE",
-  "RIGHT", "WRONG", "YOUNG", "MONEY", "ZEBRA", "PROUD"
+  "RIGHT", "WRONG", "YOUNG", "MONEY", "ZEBRA", "PROUD",
+  "THINK", "SWEAR", "FAITH", "HEART", "EARTH", "TRUST",
+  "AGREE", "GIANT", "REACT", "SENSE", "EXCEL", "POWER"
 ];
 
 const generateDefaultWords = () => {
@@ -104,6 +106,15 @@ function App() {
         {word.char}
         </div>))}
       </div> */}
+      <div className="foot" id="info"><i className="fa fa-question-circle" aria-hidden="true"></i></div>
+      <div className="explain">
+        <p><b>Hello Wordle!</b></p>
+        <p>Try to guess a five-letter word and reach the final answer!</p>
+        <p><b>ENTER</b> to check the result of your attempt.</p>
+        <p><b>TIMES</b> shows your number of attempts.</p>
+        <p><b>NEW GAME</b> button brings you start with a new word!</p>
+        <p><b>ANSWER</b> button simply shows the answer!</p>
+      </div>
       <div className="foot">Designed by Lei</div>
     </div>
   );
