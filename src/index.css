@@ -6,8 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  /* min-width: 360px; */
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,7 +132,7 @@ h1 {
   margin: 0 auto;
   position: fixed;
   left: 20vw;
-  top: 300px;
+  top: 35vh;
   border: 0;
   opacity: 0;
   z-index: -2;
@@ -142,5 +141,8 @@ h1 {
 @media screen and (max-width:767px) {
   #kb {
     z-index: 2;
+  }
+  .explain {
+    left: 2em;
   }
 }
