@@ -91,7 +91,7 @@ function App() {
         {word.char}
         </div>))}
       </div>
-      <div className="btn">TIMES: {Math.floor(check/2)}</div>
+      <div className="btn">TIMES: {check}</div>
       <button className="btn reset" onClick={reset}>NEW GAME</button>
       <input type="checkbox" id="show" />
       <label for="show" className="btn answer"><p>ANSWER</p></label>
