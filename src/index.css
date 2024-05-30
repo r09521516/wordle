@@ -128,12 +128,12 @@ h1 {
 }
 
 #kb {
-  width: 360px;
+  width: 60vw;
   height: 70px;
   margin: 0 auto;
-  position: absolute;
-  left: 60px;
-  top: 138px;
+  position: fixed;
+  left: 20vw;
+  top: 300px;
   border: 0;
   opacity: 0;
   z-index: -2;
