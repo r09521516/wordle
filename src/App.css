@@ -1,6 +1,6 @@
 .App {
   width: 360px;
-  max-width: 85vw;
+  max-width: 85%;
   height: 430px;
   background-color: #d9dad8;
   border-radius: 20px;
@@ -59,4 +59,12 @@
 
 .exclude {
   background-color: #bbb;
+}
+
+@media screen and (max-width:767px) {
+  .App {
+    max-width: 90%;
+    margin: 1em;
+    padding: 2em 4em 1em;
+  }
 }
