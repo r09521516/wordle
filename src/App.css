@@ -3,10 +3,16 @@
   height: 410px;
   background-color: #d9dad8;
   border-radius: 20px;
+  border: 10px solid #b1c49c00;
   margin: auto auto;
   padding: 2em 4em 1em;
   font-family: sans-serif;
   text-align: center;
+  transition: 0.8s ease-in-out;
+}
+
+.yeah {
+  border: 10px solid #b1c49c;
 }
 
 .boxs {

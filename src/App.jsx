@@ -70,10 +70,12 @@ function App() {
     setWords(generateDefaultWords());
     setCheck(0);
     count = -1;
+    // document.getElementById("show").checked = false;
   }
 
   return (
-    <div className="App">
+    <div className={
+      words.every(word => word.val == 3) ? "App yeah" : "App"}>
       <h1>Hello Wordle!</h1>
       <div className="boxs">
         {words.map((word) => (
