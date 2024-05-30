@@ -125,3 +125,21 @@ h1 {
   opacity: 1;
   z-index: 1;
 }
+
+#kb {
+  width: 360px;
+  height: 70px;
+  margin: 0 auto;
+  position: absolute;
+  left: 60px;
+  top: 138px;
+  border: 0;
+  opacity: 0;
+  z-index: -2;
+}
+
+@media screen and (max-width:767px) {
+  #kb {
+    z-index: 2;
+  }
+}

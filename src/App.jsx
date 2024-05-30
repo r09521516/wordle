@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+// import { Keyboard } from 'react-native';
 import './App.css'
 
 const WORDSLIST = [
@@ -93,6 +94,7 @@ function App() {
         {word.char}
         </div>))}
       </div>
+      <input type="textbox" id="kb" />
       <div className="btn">TIMES: {check}</div>
       <button className="btn reset" onClick={reset}>NEW GAME</button>
       <input type="checkbox" id="show" />
