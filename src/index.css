@@ -150,4 +150,7 @@ h1 {
     left: 5%;
     padding: 2em 0 1em;
   }
+  .explain p {
+    padding: 0.2em 1em;
+  }
 }
