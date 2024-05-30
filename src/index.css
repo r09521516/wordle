@@ -94,7 +94,7 @@ h1 {
 }
 
 .explain {
-  margin: auto;
+  margin: 0;
   padding: 30px 20px;
   width: 300px;
   height: 250px;
@@ -131,8 +131,8 @@ h1 {
   height: 70px;
   margin: 0 auto;
   position: fixed;
-  left: 20vw;
-  top: 35vh;
+  left: 20%;
+  top: 38%;
   border: 0;
   opacity: 0;
   z-index: -2;
@@ -143,6 +143,9 @@ h1 {
     z-index: 2;
   }
   .explain {
-    left: 2em;
+    width: 55vw;
+    height: 300px;
+    top: 10%;
+    left: 2vw;
   }
 }
