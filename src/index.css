@@ -139,7 +139,7 @@ h1 {
   z-index: -2;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:500px) {
   #kb {
     z-index: 2;
   }
