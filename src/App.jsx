@@ -35,7 +35,7 @@ function App() {
           count += 1;
           setWords(prev => {
             const test = count == 0 ? generateDefaultWords() : [...prev];
-            test[count] = {char: e.key.toUpperCase(), val: 0};
+            test[count] = { char: e.key.toUpperCase(), val: 0 };
             return test;
           });
         }

@@ -1,5 +1,6 @@
 .App {
-  max-width: 400px;
+  width: 400px;
+  max-width: 90vw;
   height: 410px;
   background-color: #d9dad8;
   border-radius: 20px;
