@@ -31,6 +31,7 @@ h1 {
   border-radius: 5px;
   transition: 0.8s ease-in-out;
   background-color: #ccc;
+  color: rgba(68, 68, 68, 0.87);
 }
 
 .reset {
@@ -52,7 +53,6 @@ h1 {
 .answer p {
   font-weight: bold;
   font-size: 12px;
-  color: #000;
 }
 
 #show {
@@ -65,7 +65,6 @@ h1 {
   font-size: 12px;
   color: #816159;
   opacity: 0;
-  transition: 0.8s ease-in-out;
 }
 
 #show:checked ~ label {
@@ -73,6 +72,7 @@ h1 {
 }
 
 #show:checked ~ .show-ans {
+  transition: 0.8s ease-in-out;
   opacity: 1;
 }
 

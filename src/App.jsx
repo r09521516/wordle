@@ -2,7 +2,13 @@ import { useEffect, useState } from 'react'
 import './App.css'
 
 const WORDSLIST = [
-  "APPLE", "PEARL", "CANDY", "DIRTY", "HELLO", "BREAD", "TOAST", "SHORT", "GHOST", "QUERY", "EXIST", "UNITE", "WORTH", "PIGGY", "BRAWL", "COUCH", "YUMMY", "SMILE", "QUITE", "MAYBE", "PAUSE", "STAND", "DRINK", "CAUSE", "SLEEP"
+  "APPLE", "PEARL", "CANDY", "DIRTY", "HELLO", "BREAD", 
+  "PEACH", "TOAST", "SHORT", "GHOST", "GUESS", "WEIRD", 
+  "LEAVE", "QUERY", "EXIST", "UNITY", "WORTH", "PIGGY", 
+  "BRAWL", "COUCH", "YUMMY", "SMILE", "QUITE", "MAYBE", 
+  "PAUSE", "STAND", "DRINK", "CAUSE", "SLEEP", "JELLY",
+  "OCEAN", "STACK", "FRESH", "COVER", "NORTH", "VOICE",
+  "RIGHT", "WRONG", "YOUNG", "MONEY", "ZEBRA", "PROUD"
 ];
 
 const generateDefaultWords = () => {
@@ -69,8 +75,7 @@ function App() {
     ANSWER = startNewGame();
     setWords(generateDefaultWords());
     setCheck(0);
-    count = -1;
-    // document.getElementById("show").checked = false;
+    document.getElementById("show").checked = false;
   }
 
   return (
