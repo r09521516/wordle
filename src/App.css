@@ -44,7 +44,7 @@
   background-color: #bbb;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:500px) {
   .App {
     width: 60vw;
     height: 480px;
