@@ -11,7 +11,9 @@ const WORDSLIST = [
   "OCEAN", "STACK", "FRESH", "COVER", "NORTH", "VOICE",
   "RIGHT", "WRONG", "YOUNG", "MONEY", "ZEBRA", "PROUD",
   "THINK", "SWEAR", "FAITH", "HEART", "EARTH", "TRUST",
-  "AGREE", "GIANT", "REACT", "SENSE", "EXCEL", "POWER"
+  "AGREE", "GIANT", "REACT", "SENSE", "EXCEL", "POWER",
+  "SUPER", "MEDIA", "FAULT", "CHECK", "INDEX", "IMAGE",
+  "PHOTO", "COLOR", "ABUSE", "QUICK", "BEACH", "TOUCH"
 ];
 
 const generateDefaultWords = () => {
