@@ -127,12 +127,13 @@ h1 {
 }
 
 #kb {
-  width: 60vw;
+  width: 90%;
   height: 70px;
-  margin: 0 auto;
-  position: fixed;
-  left: 20%;
-  top: 38%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 5%;
+  top: 35%;
   border: 0;
   opacity: 0;
   z-index: -2;
@@ -143,9 +144,10 @@ h1 {
     z-index: 2;
   }
   .explain {
-    width: 55vw;
+    width: 90%;
     height: 300px;
     top: 10%;
-    left: 2vw;
+    left: 5%;
+    padding: 2em 0 1em;
   }
 }
