@@ -1,6 +1,5 @@
 .App {
   width: 360px;
-  max-width: 85%;
   height: 430px;
   background-color: #d9dad8;
   border-radius: 20px;
@@ -33,22 +32,6 @@
   font-weight: bold;
 }
 
-/* .checkboxs {
-  display: flex;
-  gap: 5px;
-  justify-content: center;
-}
-
-.checkbox {
-  width: 30px;
-  height: 30px;
-  background-color: #ccc;
-  font-size: 25px;
-  color: #000;
-  font-weight: bold;
-  opacity: 0.3;
-} */
-
 .correct {
   background-color: #91ad70;
 }
@@ -63,8 +46,8 @@
 
 @media screen and (max-width:767px) {
   .App {
-    max-width: 90%;
+    width: 60vw;
     margin: 1em;
-    padding: 2em 4em 1em;
+    padding: 2em 3em 1em;
   }
 }
