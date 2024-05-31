@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-// import { Keyboard } from 'react-native';
 import './App.css'
 
 const documentHeight = () => {
@@ -21,7 +20,11 @@ const WORDSLIST = [
   "AGREE", "GIANT", "REACT", "SENSE", "EXCEL", "POWER",
   "SUPER", "MEDIA", "FAULT", "CHECK", "INDEX", "IMAGE",
   "PHOTO", "COLOR", "ABUSE", "QUICK", "BEACH", "TOUCH",
-  "LEGAL", "DAILY", "OTHER", "GRAVE", "CHOAS", "MERCI"
+  "LEGAL", "DAILY", "OTHER", "GRAVE", "CHOAS", "MERCI",
+  "BUILD", "JOKER", "HOTEL", "ANGEL", "HONEY", "SORRY",
+  "LAUGH", "BINGO", "FIGHT", "COMIC", "ONION", "DEATH",
+  "DONUT", "DEVIL", "PHASE", "PIZZA", "VIDEO", "WHITE",
+  "FORCE", "EMPTY", "WATER", "SHARK", "GRAND", "ALONE",
 ];
 
 const generateDefaultWords = () => {
