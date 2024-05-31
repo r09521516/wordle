@@ -1,12 +1,14 @@
 :root {
   color: rgba(68, 68, 68, 0.87);
   background-color: #dfdfdf;
+  --doc-height: 100%;
 }
 
 body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  height: var(--doc-height);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,6 +142,9 @@ h1 {
 }
 
 @media screen and (max-width:500px) {
+  :root{
+    background-color: #fff;
+  }
   #kb {
     z-index: 2;
   }

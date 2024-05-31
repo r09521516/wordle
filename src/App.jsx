@@ -2,6 +2,13 @@ import { useEffect, useState } from 'react'
 // import { Keyboard } from 'react-native';
 import './App.css'
 
+const documentHeight = () => {
+  const doc = document.documentElement;
+  doc.style.setProperty("--doc-height", `${window.innerHeight}px`);
+}
+window.addEventListener("resize", documentHeight);
+documentHeight();
+
 const WORDSLIST = [
   "APPLE", "PEARL", "CANDY", "DIRTY", "HELLO", "BREAD", 
   "PEACH", "TOAST", "SHORT", "GHOST", "GUESS", "WEIRD", 
