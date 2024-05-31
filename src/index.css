@@ -1,6 +1,6 @@
 :root {
   color: rgba(68, 68, 68, 0.87);
-  background-color: #dfdfdf;
+  background-color: #fff;
   --doc-height: 100%;
 }
 
@@ -142,9 +142,6 @@ h1 {
 }
 
 @media screen and (max-width:500px) {
-  :root{
-    background-color: #fff;
-  }
   #kb {
     z-index: 2;
   }
