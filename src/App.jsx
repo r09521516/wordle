@@ -20,7 +20,8 @@ const WORDSLIST = [
   "THINK", "SWEAR", "FAITH", "HEART", "EARTH", "TRUST",
   "AGREE", "GIANT", "REACT", "SENSE", "EXCEL", "POWER",
   "SUPER", "MEDIA", "FAULT", "CHECK", "INDEX", "IMAGE",
-  "PHOTO", "COLOR", "ABUSE", "QUICK", "BEACH", "TOUCH"
+  "PHOTO", "COLOR", "ABUSE", "QUICK", "BEACH", "TOUCH",
+  "LEGAL", "DAILY", "OTHER", "GRAVE", "CHOAS", "MERCI"
 ];
 
 const generateDefaultWords = () => {

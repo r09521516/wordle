@@ -52,3 +52,24 @@
     padding: 2em 1em 1em;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .App {
+    background-color: #ccd3c7;
+  }
+  .yeah {
+    border: 10px solid #9ab180;
+  }
+  .box {
+    background-color: #bbb;
+  }
+  .correct {
+    background-color: #91ad70;
+  }
+  .include {
+    background-color: #e2943b;
+  }
+  .exclude {
+    background-color: #aaa;
+  }
+}
