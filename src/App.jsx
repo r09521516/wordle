@@ -25,6 +25,7 @@ const WORDSLIST = [
   "LAUGH", "BINGO", "FIGHT", "COMIC", "ONION", "DEATH",
   "DONUT", "DEVIL", "PHASE", "PIZZA", "VIDEO", "WHITE",
   "FORCE", "EMPTY", "WATER", "SHARK", "GRAND", "ALONE",
+  "THANK", "THING", "BLAME", "CHILL", "SPICY", "LOSER",
 ];
 
 const generateDefaultWords = () => {
@@ -40,7 +41,6 @@ var ANSWER = startNewGame();
 function App() {
   const [words, setWords] = useState(generateDefaultWords());
   const [check, setCheck] = useState(0);
-  // const [done, setDone] = useState(0);
 
   useEffect(() => {
     let count = -1;
@@ -113,14 +113,6 @@ function App() {
       <input type="checkbox" id="show" />
       <label for="show" className="btn answer"><p>ANSWER</p></label>
       <div className="show-ans">{ANSWER}</div>
-      {/* <div className="checkboxs">
-        {check.map((word) => (
-        <div className={
-          word.val == 0 || word.val == -1 ? "checkbox" :
-          word.val == 1 ? "checkbox include" : "checkbox correct"}>
-        {word.char}
-        </div>))}
-      </div> */}
       <div className="foot" id="info"><i className="fa fa-question-circle" aria-hidden="true"></i></div>
       <div className="explain">
         <p><b>Hello Wordle!</b></p>
