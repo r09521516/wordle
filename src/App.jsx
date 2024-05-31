@@ -26,6 +26,7 @@ const WORDSLIST = [
   "DONUT", "DEVIL", "PHASE", "PIZZA", "VIDEO", "WHITE",
   "FORCE", "EMPTY", "WATER", "SHARK", "GRAND", "ALONE",
   "THANK", "THING", "BLAME", "CHILL", "SPICY", "LOSER",
+  "QUEEN", "HEAVY", "CRAFT", "MOVIE", "KNOCK", "WHERE",
 ];
 
 const generateDefaultWords = () => {
@@ -85,6 +86,7 @@ function App() {
       }
     }
     window.addEventListener("keydown", handleKeyDown);
+    return () => removeEventListener("keydown", handleKeyDown);
   }, []);
 
   function reset() {
