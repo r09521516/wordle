@@ -103,7 +103,7 @@ function App() {
         {word.char}
         </div>))}
       </div>
-      <input type="textbox" id="kb" />
+      <input type="textbox" id="keyin" />
       <div className="btn">TIMES: {check}</div>
       <button className="btn reset" onClick={reset}>NEW GAME</button>
       <input type="checkbox" id="show" />

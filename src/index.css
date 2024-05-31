@@ -128,27 +128,28 @@ h1 {
   z-index: 1;
 }
 
-#kb {
+#keyin {
   width: 90%;
   height: 70px;
   margin: 0;
   padding: 0;
   position: absolute;
   left: 5%;
-  top: 35%;
+  top: 30%;
   border: 0;
   opacity: 0;
   z-index: -2;
 }
 
 @media screen and (max-width: 767px) {
-  #kb {
+  #keyin {
     z-index: 2;
   }
 }
 
 @media screen and (max-width: 500px) {
-  #kb {
+  #keyin {
+    top: 35%;
     z-index: 2;
   }
   .explain {
