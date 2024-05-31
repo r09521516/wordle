@@ -90,6 +90,10 @@ h1 {
   color: #999;
 }
 
+a {
+  text-decoration: none;
+}
+
 #info {
   margin: 3px auto 0;
   width: 2em;

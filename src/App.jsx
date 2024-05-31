@@ -27,6 +27,7 @@ const WORDSLIST = [
   "FORCE", "EMPTY", "WATER", "SHARK", "GRAND", "ALONE",
   "THANK", "THING", "BLAME", "CHILL", "SPICY", "LOSER",
   "QUEEN", "HEAVY", "CRAFT", "MOVIE", "KNOCK", "WHERE",
+  "PROOF",
 ];
 
 const generateDefaultWords = () => {
@@ -78,7 +79,7 @@ function App() {
         if (count > -1) {
           setWords(prev => {
             const test = [...prev];
-            test[count+1] = {char: "", val: -1};
+            test[count+1] = { char: "", val: -1 };
             return test;
           });
           count -= 1;
@@ -124,7 +125,7 @@ function App() {
         <p><b>NEW GAME</b> button brings you start with a new word!</p>
         <p><b>ANSWER</b> button simply shows the answer!</p>
       </div>
-      <div className="foot">Designed by Lei</div>
+      <div><a className="foot" href="https://github.com/r09521516/wordle.git">Designed by Lei</a></div>
     </div>
   );
 }
