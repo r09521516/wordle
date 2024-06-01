@@ -28,6 +28,8 @@ const WORDSLIST = [
   "THANK", "THING", "BLAME", "CHILL", "SPICY", "LOSER",
   "QUEEN", "HEAVY", "CRAFT", "MOVIE", "KNOCK", "WHERE",
   "PROOF", "SCARE", "TRASH", "TABLE", "BLACK", "GREEN",
+  "WORLD", "WITCH", "JEANS", "MODEL", "GUAVA", "MOUTH",
+  "TOOTH", "LEVEL", "NEVER", "PRESS", "TRUST", "ALARM"
 ];
 
 const generateDefaultWords = () => {
