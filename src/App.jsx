@@ -98,6 +98,7 @@ function App() {
     setWords(generateDefaultWords());
     setCheck(0);
     document.getElementById("show").checked = false;
+    document.getElementById("keyin").value = "";
   }
 
   return (
