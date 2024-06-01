@@ -27,7 +27,7 @@ const WORDSLIST = [
   "FORCE", "EMPTY", "WATER", "SHARK", "GRAND", "ALONE",
   "THANK", "THING", "BLAME", "CHILL", "SPICY", "LOSER",
   "QUEEN", "HEAVY", "CRAFT", "MOVIE", "KNOCK", "WHERE",
-  "PROOF",
+  "PROOF", "SCARE", "TRASH", 
 ];
 
 const generateDefaultWords = () => {
@@ -74,6 +74,7 @@ function App() {
           });
           count = -1;
           setCheck((prev) => (prev + 1));
+          document.getElementById("keyin").value = "";
         }
       } else if (e.key == "Backspace") {
         if (count > -1) {
@@ -110,7 +111,7 @@ function App() {
         {word.char}
         </div>))}
       </div>
-      <input type="textbox" id="keyin" />
+      <input type="textbox" id="keyin" value="" />
       <div className="btn">TIMES: {check}</div>
       <button className="btn reset" onClick={reset}>NEW GAME</button>
       <input type="checkbox" id="show" />
