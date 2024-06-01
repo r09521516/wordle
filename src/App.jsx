@@ -90,35 +90,42 @@ function App() {
       }
     }
     window.addEventListener("keydown", handleKeyDown);
-    return () => removeEventListener("keydown", handleKeyDown);
-  }, []);
 
-  function reset() {
-    ANSWER = startNewGame();
-    setWords(generateDefaultWords());
-    setCheck(0);
-    document.getElementById("show").checked = false;
-    document.getElementById("keyin").value = "";
-  }
+    function reset() {
+      ANSWER = startNewGame();
+      setWords(generateDefaultWords());
+      setCheck(0);
+      document.getElementById("show").checked = false;
+      document.getElementById("keyin").value = "";
+      count = -1;
+    }
+
+    document.getElementById("btnreset").addEventListener("click", reset);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+      document.getElementById("btnreset").addEventListener("click", reset);
+    }
+  }, []);
 
   return (
     <div className={
       words.every(word => word.val == 3) ? "App yeah" : "App"}>
       <h1>Hello Wordle!</h1>
       <div className="boxs">
-        {words.map((word) => (
-        <div className={
+        {words.map((word, i) => (
+        <div key={i}
+          className={
           word.val == -1 || word.val == 0 ? "box" : 
           word.val == 1 ? "box exclude" :
           word.val == 2 ? "box include" : "box correct"}>
         {word.char}
         </div>))}
       </div>
-      <input type="textbox" id="keyin" value="" />
+      <input type="textbox" id="keyin" />
       <div className="btn">TIMES: {check}</div>
-      <button className="btn reset" onClick={reset}>NEW GAME</button>
+      <button id="btnreset" className="btn reset">NEW GAME</button>
       <input type="checkbox" id="show" />
-      <label for="show" className="btn answer"><p>ANSWER</p></label>
+      <label htmlFor="show" className="btn answer"><p>ANSWER</p></label>
       <div className="show-ans">{ANSWER}</div>
       <div className="foot" id="info"><i className="fa fa-question-circle" aria-hidden="true"></i></div>
       <div className="explain">
