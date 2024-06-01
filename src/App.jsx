@@ -27,7 +27,7 @@ const WORDSLIST = [
   "FORCE", "EMPTY", "WATER", "SHARK", "GRAND", "ALONE",
   "THANK", "THING", "BLAME", "CHILL", "SPICY", "LOSER",
   "QUEEN", "HEAVY", "CRAFT", "MOVIE", "KNOCK", "WHERE",
-  "PROOF", "SCARE", "TRASH", 
+  "PROOF", "SCARE", "TRASH", "TABLE", "BLACK", "GREEN",
 ];
 
 const generateDefaultWords = () => {
