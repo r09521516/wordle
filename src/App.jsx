@@ -29,7 +29,8 @@ const WORDSLIST = [
   "QUEEN", "HEAVY", "CRAFT", "MOVIE", "KNOCK", "WHERE",
   "PROOF", "SCARE", "TRASH", "TABLE", "BLACK", "GREEN",
   "WORLD", "WITCH", "JEANS", "MODEL", "GUAVA", "MOUTH",
-  "TOOTH", "LEVEL", "NEVER", "PRESS", "TRUST", "ALARM"
+  "TOOTH", "LEVEL", "NEVER", "PRESS", "TRUST", "ALARM",
+  "COVID", "PARTY", "FLAME", "FOCUS", "SPORT", "ADORE",
 ];
 
 const generateDefaultWords = () => {
@@ -99,8 +100,8 @@ function App() {
       document.getElementById("keyin").value = "";
       count = -1;
     }
-
     document.getElementById("btnreset").addEventListener("click", reset);
+    
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
       document.getElementById("btnreset").addEventListener("click", reset);
