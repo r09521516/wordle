@@ -32,7 +32,12 @@ const WORDSLIST = [
   "TOOTH", "LEVEL", "NEVER", "PRESS", "TRUST", "ALARM",
   "COVID", "PARTY", "FLAME", "FOCUS", "SPORT", "ADORE",
   "RIVER", "PEACE", "ENJOY", "BASIC", "PILOT", "POINT",
-  "GRASS", "EVERY", "SMOKE",
+  "GRASS", "EVERY", "SMOKE", "CLOCK", "BACON", "DANCE",
+  "MAGIC", "PIANO", "KNIFE", "QUIET", "UNCLE", "DREAM",
+  "MANGO", "CLOWN", "GRAPE", "JUICE", "STORY", "VALUE",
+  "NOVEL", "SUSHI", "BAGEL", "CREAM", "SUGAR", "SNACK",
+  "HUMAN", "OFTEN", "READY", "ROBOT", "ERROR", "ELITE",
+  "WATCH", "GUILT",
 ];
 
 const generateDefaultWords = () => {
