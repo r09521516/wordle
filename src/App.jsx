@@ -31,6 +31,8 @@ const WORDSLIST = [
   "WORLD", "WITCH", "JEANS", "MODEL", "GUAVA", "MOUTH",
   "TOOTH", "LEVEL", "NEVER", "PRESS", "TRUST", "ALARM",
   "COVID", "PARTY", "FLAME", "FOCUS", "SPORT", "ADORE",
+  "RIVER", "PEACE", "ENJOY", "BASIC", "PILOT", "POINT",
+  "GRASS", "EVERY", "SMOKE",
 ];
 
 const generateDefaultWords = () => {
