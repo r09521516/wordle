@@ -2,6 +2,10 @@
 
 # React Wordle App
 
+Try to guess a five-letter word and reach the final answer.
+
+Key in or delete letters until five then press Enter to check the result of your attempt.
+
 Page: https://r09521516.github.io/wordle/
 
 # Built with
