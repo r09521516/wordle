@@ -10,7 +10,7 @@ Result of attempts:
 
 - Gray means no such letter in the final answer.
 - Green means the letter is in a right place.
-- Red means letter is not in a right place.
+- Orange means letter is not in a right place.
 
 Page: https://r09521516.github.io/wordle/
 
