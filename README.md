@@ -6,6 +6,12 @@ Try to guess a five-letter word and reach the final answer.
 
 Key in or delete letters until five then press Enter to check the result of your attempt.
 
+Result of attempts:
+
+- Gray means no such letter in the final answer.
+- Green means the letter is in a right place.
+- Red means letter is not in a right place.
+
 Page: https://r09521516.github.io/wordle/
 
 # Built with
@@ -23,7 +29,7 @@ Currently, two official plugins are available:
 
 # Contact
 
-- Email: juju142984@gmail.com
+- Email: leihsu97@gmail.com
 - Project link: https://github.com/r09521516/wordle
 
 # Acknowledgments
