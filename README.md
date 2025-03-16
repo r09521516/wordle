@@ -20,7 +20,7 @@ Page: https://r09521516.github.io/wordle/
 
 # Built with
 
-- HTML + CSS + Javascript
+- HTML + CSS + JavaScript
 - React
 
 # React + Vite
