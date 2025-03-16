@@ -2,20 +2,25 @@
 
 # React Wordle App
 
-Try to guess a five-letter word and reach the final answer.
+Try to guess a five-letter word and find the final answer.
 
-Key in or delete letters until five then press Enter to check the result of your attempt.
+Enter or delete letters until you have five, then press Enter to check your attempt.
 
 Result of attempts:
+- Gray means the letter is not in the final answer.
+- Green means the letter is in the correct position.
+- Orange means the letter is in the word but not in the correct position.
 
-- Gray means no such letter in the final answer.
-- Green means the letter is in a right place.
-- Orange means the letter is not in a right place.
+Guide:
+- "TIMES" displays the number of attempts you've made.
+- "NEW GAME" starts a new round.
+- "ANSWER" reveals the correct word.
 
 Page: https://r09521516.github.io/wordle/
 
 # Built with
 
+- HTML + CSS + Javascript
 - React
 
 # React + Vite
